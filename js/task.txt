@@ -5,15 +5,15 @@ R ==> Read
 U ==> update
 D ==> delete
 
-example => 
+example =>
 users => [
     { id: abc, name: 'amit', age: 10, country: 'india'},
     { id: def, name: 'def', age: 10, country: 'india'},
     { id: xyz, name: 'xyz', age: 10, country: 'india'},
-    { id: xyz, name: 'xyz', age: 10, country: 'india'}, ==> new user
+    { id: xyz, name: 'xyz', age: 10, country: 'india'}, ==> new user,
 ]
 
 createUser(newUser)
-readUser(abc) // return user data
-updateUser(userId, newName) // abc, 'amit' // user not found
+readUser(userId) // return user data
+updateUser(userId, {name: 'newName'}) // abc, 'amit' // user not found
 deleteUser(userId) // abc
