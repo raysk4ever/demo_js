@@ -17,3 +17,14 @@ createUser(newUser)
 readUser(userId) // return user data
 updateUser(userId, {name: 'newName'}) // abc, 'amit' // user not found
 deleteUser(userId) // abc
+
+
+// filters
+filterUsers('age', 0 - 10)
+filterUsers('country', 'USA')
+filterUsers('country', 'India')
+filterUsers('name', 'A')
+
+// sorting
+sort('name', 'asc/desc')
+sort('age', 'asc/desc')

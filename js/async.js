@@ -1,6 +1,3 @@
-
-
-
 // // sync ==> wait result ==> block
 // // async ==> doesn't wait for the result ==> non block
 
@@ -28,30 +25,22 @@
 //     console.log(error)
 // }
 
-
-
-
-// try {
-//     console.log('Hey 1')
-//     setTimeout(function () {
-//         try{
-//             const a = "ABC"
-//             a = "XYZ"
-//             console.log('a', a)
-//         }catch(error) {
-//             console.log('Something went wrong')
-//         }
-//     }, 10000)
-//     console.log('Hey 2')
-// } catch (error) {
-//     console.log('Something went wrong')
-// }
-// console.log('hey 3')
-
-
-
-
-
+try {
+    console.log('Hey 1')
+    setTimeout(function () {
+        try{
+            const a = "ABC"
+            a = "XYZ"
+            console.log('a', a)
+        }catch(error) {
+            console.log('Something went wrong')
+        }
+    }, 10000)
+    console.log('Hey 2')
+} catch (error) {
+    console.log('Something went wrong')
+}
+console.log('hey 3')
 
 
 // setTimeout(, 1000)

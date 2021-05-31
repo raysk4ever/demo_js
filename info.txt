@@ -1,0 +1,40 @@
+// FRONTEND
+// javascript ==> basic cover
+// HTML/CSS ===> basic
+// project ==> html css js
+
+// React Js ==> UI
+// REST API CALL ===> USE
+// bootstrap
+// Antd
+// Firebase
+
+// FRONTEND----REST-API------BACKEND
+// Axios, fetch
+
+
+
+
+// BACKEND
+// Javascript
+// HTML/CSS
+// project
+
+// NODEJS ==> create REST API
+// Express ==> dev time reduce for REST API
+// DB ==> 
+// Mongoose ==> ODM // Mongodb ==> NoSql (Ref) ==> Read ==> fast ==> easy ==> Rel ==> Slow compare sql
+// Sql, ==> RDBMS, Read ==> slow ==> complex ==> Rel ==> Fast
+// postgress
+// ORM ==> SQLpostgress
+// FIREBASE
+
+
+// Mobile Development
+// Javascript
+// CSS
+// React Native ==> modified react
+// Firebase
+// Bootstrap
+// React Native Element
+// Rest APi
