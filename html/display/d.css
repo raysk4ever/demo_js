@@ -1,0 +1,67 @@
+/* 
+    flex: unidirection
+    flex => dir row (default)
+    justify-content: x-axis
+    align-items: y-axis
+
+    flex => dir column
+    justify-content: y-axis
+    align-items: x-axis
+
+    align-items: stretch; (default)
+    justify-content: flex-start; (default) 
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-size: 30px; */
+    color: white;
+}
+
+body {
+    background-color: #eee;
+    display: flex; 
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content: space-between;  */
+    /* align-items: flex-start; */
+    height: 100vh;
+}
+
+.div1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* max-height: 300px; */
+    overflow: scroll;
+    background-color: brown;
+}
+
+.div2 {
+    /* display: flex;
+    align-items: center; */
+    width: 300px;
+    /* max-height: 300px; */
+    overflow: scroll;
+    background-color: green;
+}
+
+.div3 {
+    /* display: flex;
+    justify-content: flex-end; */
+    width: 300px;
+    /* max-height: 300px; */
+    overflow: scroll;
+    background-color: coral;
+}
+
+p {
+    font-size: xx-large;
+    color: black;
+    flex: 1;
+}
+span {
+}

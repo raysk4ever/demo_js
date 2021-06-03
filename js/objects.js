@@ -43,14 +43,29 @@ let data = {
     address: {
         city: 'Rudrapur',
         state: 'Uttrakhand'
+    },
+    a: {
+        b: {
+            b: {
+                e: [{a: '12'}]
+            }
+        }
     }
 }
 // let newDataObj = data
 
-// copy/clone obj to newone (doesn't make deepcopy)
-let newDataObj = Object.assign({}, data)
+// // copy/clone obj to newone (doesn't make deepcopy)
+let newDataObj = Object.assign({}, data) // copy by another obj => store in diff ref other then obj
 
-newDataObj.age = 200
-newDataObj.address.city = 'Agra'
-
+// newDataObj.age = 200
+// newDataObj.address.city = 'Agra'
 console.log({data, newDataObj})
+
+
+const str = JSON.stringify(data) // obj ==> string (Valid Json)
+const newDataObj = JSON.parse(str) // string (valied json) ==> obj
+
+
+
+
+

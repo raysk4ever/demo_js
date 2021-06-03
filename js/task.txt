@@ -20,10 +20,10 @@ deleteUser(userId) // abc
 
 
 // filters
-filterUsers('age', 0 - 10)
+filterUsers('age', 0 <-> 10)
 filterUsers('country', 'USA')
 filterUsers('country', 'India')
-filterUsers('name', 'A')
+filterUsers('name', 'A') // 
 
 // sorting
 sort('name', 'asc/desc')

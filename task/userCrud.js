@@ -1,4 +1,8 @@
-const users = []
+const users = [
+    { roll: 3, name: 'EFG', age: 20, country: 'PAK' },
+    { roll: 4, name: 'EFG', age: 20, country: 'USA' },
+    { roll: 5, name: 'EFG', age: 20, country: 'INDIA' }
+]
 
 function createUser(newUser){
     users.push(newUser)
@@ -49,7 +53,21 @@ createUser(user2)
 //     }
 // })
 
-// console.log('users', users)
+console.log('users', users)
+
+
+
+// function filterUsers(filter, value) {
+//     if(filter === 'age') {
+//         // age
+//     }
+//     else if(filter === 'name') {
+//         // name    
+//     }
+//     else if(filter === 'country') {
+//         // country
+//     }
+// }
 
 
 

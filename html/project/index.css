@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 10px;
+  color: #233052;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.theme-btn {
+    border: none;
+    padding: 8px 15px;
+    background-color: #2401fb;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.theme-text {
+    color: #2401fb;
+}
+.main .head {
+  display: flex;
+  /* background-color: green; */
+  height: 5rem;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    padding-right: 100px;
+  }
+  .nav span {
+      margin: 10px;
+      padding:10px ;
+  }
+
+.main .body {
+  /* flex: 1; */
+  background-image: url("img/Banner-bg.png");
+  /* background-color: orange; */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+}
+
+.body-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.body-left-top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+}
+.subtitle {
+    color: #8b8d90
+}
+.body-left-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.body-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.body-right-img {
+    margin-top: -10px;
+}
+
+
+.editor {
+    display: flex;
+    border-radius: 30px;
+    background-color: #e1eaef;
+    align-self: flex-start;
+}
+.editor .content {
+    /* padding: 8px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    align-self: center;
+}
+.orange {
+    background-color: #fcab24;
+    color: white;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

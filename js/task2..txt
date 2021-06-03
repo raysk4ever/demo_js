@@ -1,0 +1,13 @@
+const str = "r,avi singh R 1 2, $" (hint: string menthods)
+output = {
+    a: 1,
+    r: 2,
+    v: 1,
+    i: 2,
+    n: 1,
+    space: 4,
+    ',': 2
+}
+
+console.log(output)
+
