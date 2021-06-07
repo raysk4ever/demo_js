@@ -1,6 +1,6 @@
 // FRONTEND
 // javascript ==> basic cover
-// HTML/CSS ===> basic
+// HTML/CSS ===> basic ✅ (to be covered ==> Postion, variables, mediaquery, animations)
 // project ==> html css js
 
 // React Js ==> UI
