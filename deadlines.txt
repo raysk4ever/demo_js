@@ -4,8 +4,8 @@
 ==> HTML/CSS UI (Whatsapp pe share kia hai task)
 
 
-SANDEEP ==> Monday 7
-Anish ==> Sunday 6
-Dusang ==> Monday 7
-Rajesh ==> Monday 7
+SANDEEP ==> Monday 7 ==> Friday 11
+Anish ==> Sunday 6 ==> Thusday 10
+Dusang ==> Monday 7 ==> Monday 14
+Rajesh ==> Monday 7 ==> Tuesday 15
 Anil ==> 18 Friday
