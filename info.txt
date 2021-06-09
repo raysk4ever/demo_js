@@ -1,7 +1,8 @@
 // FRONTEND
-// javascript ==> basic cover
+// javascript ==> basic cover 
 // HTML/CSS ===> basic ✅ (to be covered ==> Postion, variables, mediaquery, animations)
 // project ==> html css js
+// hositing ==> behavior of js
 
 // React Js ==> UI
 // REST API CALL ===> USE

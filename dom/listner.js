@@ -2,7 +2,7 @@ const box1 = document.getElementById('box1')
 const p = document.createElement('p')
 const player = document.createElement('img')
 const [body] = document.getElementsByTagName('body')
-
+ 
 box1.appendChild(p)
 
 box1.addEventListener('mouseover', (event) => {
