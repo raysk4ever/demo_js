@@ -1,7 +1,15 @@
 # TASK
-=> USER CRUD
+=> USER CRUD 
+- anish
+- Dusang
+- SANDEEP
+
 => CHAR COUNTING INSIDE OBJECT FROM STRING
+- SANDEEP
+- Dusang
+
 ==> HTML/CSS UI (Whatsapp pe share kia hai task)
+- Rajesh
 
 
 SANDEEP ==> Monday 7 ==> Friday 11
