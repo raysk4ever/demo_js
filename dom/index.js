@@ -1,6 +1,15 @@
 const [body] = document.getElementsByTagName('body')
 const p1 = document.getElementById('para1')
 
+totalBox = 4
+totalBox = totalBox + boxPerLvl // 8
+
+totalBox = totalBox + boxPerLvl // 12
+
+totalBox = totalBox + boxPerLvl
+let basic  = 2
+let boxPerLvl = 4 + 4 + 4 + 4
+let point = currentLvl * basic
 const totalBox = 8
 const names = ['anish', 'ravi']
 Array.from({length: totalBox}).forEach((v, i) => {

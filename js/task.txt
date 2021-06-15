@@ -23,7 +23,7 @@ deleteUser(userId) // abc
 filterUsers('age', 0 <-> 10)
 filterUsers('country', 'USA')
 filterUsers('country', 'India')
-filterUsers('name', 'A') // 
+filterUsers('name', 'A') // regex || string methods
 
 // sorting
 sort('name', 'asc/desc')
