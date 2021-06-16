@@ -1,0 +1,14 @@
+# Buget App
+- Refrence1: https://cutt.ly/jnJkeGx
+- Refrence2: https://cutt.ly/CnJkypa
+- Make app so that we can show graphs on the screen ( eg. https://cutt.ly/tnJkcMH)
+- Libs for chats: d3, 
+
+
+
+
+SANDEEP
+Anish ==> Friday 18
+Dusang ==> Monday 21
+Rajesh
+Anil

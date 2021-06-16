@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root {
+    --blue: #1479ff;
+}
+.main {
+    height: 100vh;
+    display: flex;
+}
+.nav {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-brand {
+    color: var(--blue);
+    height: 100px;
+    align-self: center;
+    line-height: 100px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s 0s ease;
+}
+
+.nav-brand:hover {
+    transform: rotate(360deg);
+    color: red;
+}
+
+.nav-items {
+    align-self: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #7185a2;
+    transition: all 1s 0s ease;
+}
+.nav-item:hover {
+    transform: rotate(360deg);
+}
+.nav-item-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+
+.nav-icon {
+    width: 20px;   
+    padding: 10px;
+    border-radius: 10px;
+    background: #d2e5ff;
+    margin-bottom: 10px;
+
+}
+.nav-icon-active {
+    width: 20px;
+    box-shadow: 0px 10px 15px 2px #bed9ff;
+    background: var(--blue);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.avatar {
+    position: relative;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 50px;
+}
+.online {
+    width: 10px;
+    height: 10px;
+    background: var(--blue);
+    position: absolute;
+    border-radius: 50%;
+    right: 2px;
+    border: 2px solid white;
+    top: 3px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    background: #f8fbff;
+    padding: 10px;
+}
+
+.content-left {
+    flex: 1;
+}
+
+.content-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.date-container {
+    flex: 1;
+    display: flex;
+}
+.date-container-left {
+    flex: 1;
+}
+
+.date-container-right {
+    flex: 1;
+}
+
+
+.appointment-container {
+    flex: 2;
+}
+
+.content div {
+    background: white;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 10px;
+}
