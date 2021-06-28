@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#balance {
+    margin-left: 10px;
+}
+
+.summary {
+    background-color: chocolate;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    background-color: cornflowerblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-expenses {
+    /* background-color: wheat; */
+    flex: 2;
+    padding: 2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.single-expense {
+    background-color: wheat;
+    margin-bottom: 10px;
+    padding: 10px;
+}

@@ -7,7 +7,6 @@ function getFullName(name = {}) {
     return `${name.title} ${name.first} ${name.last}`
 }
 
-
 function loadUsers(users) {
     if(users.length) {
         list.innerHTML = ``
@@ -42,6 +41,3 @@ refresh.addEventListener("click", () => {
     const pageNumber = 2
     fetchUsers(pageNumber)
 })
-// function refresh() {
-//     console.log('hey')
-// }
